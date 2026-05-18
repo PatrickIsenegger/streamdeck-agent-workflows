@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" role="img" aria-labelledby="title">
+  <title id="title">Focus</title>
+  <rect width="144" height="144" rx="24" fill="#202528"/>
+  <circle cx="72" cy="72" r="28" fill="none" stroke="#e9dfef" stroke-width="10"/>
+  <path d="M72 26v18M72 100v18M26 72h18M100 72h18" fill="none" stroke="#e9dfef" stroke-width="10" stroke-linecap="round"/>
+</svg>
