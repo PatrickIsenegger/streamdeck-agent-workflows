@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" role="img" aria-labelledby="title">
+  <title id="title">Home</title>
+  <rect width="144" height="144" rx="24" fill="#202528"/>
+  <path d="M34 70l38-34 38 34" fill="none" stroke="#f1e7c2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 68v42h52V68" fill="none" stroke="#f1e7c2" stroke-width="10" stroke-linejoin="round"/>
+</svg>
