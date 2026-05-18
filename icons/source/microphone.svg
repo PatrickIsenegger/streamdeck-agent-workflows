@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" role="img" aria-labelledby="title">
+  <title id="title">Microphone</title>
+  <rect width="144" height="144" rx="24" fill="#202528"/>
+  <rect x="52" y="28" width="40" height="58" rx="20" fill="none" stroke="#f4efe5" stroke-width="10"/>
+  <path d="M38 66c0 24 14 38 34 38s34-14 34-38" fill="none" stroke="#f4efe5" stroke-width="10" stroke-linecap="round"/>
+  <path d="M72 104v18M55 122h34" fill="none" stroke="#d9eef0" stroke-width="10" stroke-linecap="round"/>
+</svg>
