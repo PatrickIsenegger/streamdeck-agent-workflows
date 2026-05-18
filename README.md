@@ -21,6 +21,7 @@ Coding agents are useful for the maintenance work around that setup:
 - normalizing icon style and file names
 - documenting profiles and pages
 - auditing exported actions for missing paths or plugin dependencies
+- loading small task-specific skills before doing repeated Stream Deck work
 - preparing reviewed profile variants
 - keeping prompts and agent instructions consistent
 
@@ -33,6 +34,20 @@ The first concrete sample workflow is available now:
 - [Capture text to webhook](workflows/capture-text-webhook/README.md): a Stream Deck key opens a local text prompt and sends the captured note to a webhook as JSON.
 
 See the [workflow catalog](docs/workflows.md) for planned workflows and contribution ideas.
+
+## Agent skills
+
+The repo includes small reusable skills under [`skills/`](skills/) for common
+agent tasks:
+
+- [`audit-streamdeck-profile`](skills/audit-streamdeck-profile/SKILL.md):
+  inventory exported profiles and flag risky actions before import
+- [`manage-streamdeck-icons`](skills/manage-streamdeck-icons/SKILL.md):
+  normalize source SVG icons and render reproducible PNG exports
+- [`build-streamdeck-workflow`](skills/build-streamdeck-workflow/SKILL.md):
+  add safe workflow samples with scripts, platform notes, and review checklists
+
+See [Agent Skills](docs/skills.md) for usage notes.
 
 ## Platform support
 
@@ -55,6 +70,7 @@ streamdeck-agent-workflows/
   graphics/                  # SVG diagrams and visual assets
   icons/                     # Source SVG icons and generated PNG output folders
   scripts/                   # Small audit/render helper scripts
+  skills/                    # Reusable agent skills for focused repo tasks
   templates/                 # Starter files for your own Stream Deck control repo
   tokens/                    # Design tokens for icon rendering
   workflows/                 # Concrete workflow samples
@@ -83,7 +99,8 @@ The scripts are deliberately modest. They are meant to show a pattern you can ad
 
 1. Export a Stream Deck profile or action from the Stream Deck app.
 2. Put the export in a separate private working repo, not in this public repo.
-3. Add `AGENTS.md`, `CLAUDE.md`, tokens, and templates from this project.
+3. Add `AGENTS.md`, `CLAUDE.md`, relevant skills, tokens, and templates from
+   this project.
 4. Ask a coding agent for a narrow change: one page, one icon family, or one profile variant.
 5. Review the diff.
 6. Import manually through the Stream Deck app.

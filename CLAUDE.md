@@ -9,6 +9,8 @@ Agents edit exported artifacts and source files. Humans import reviewed results 
 ## Do
 
 - Keep changes narrow and reviewable.
+- Read the matching skill in `skills/` before profile audits, icon work, or
+  workflow sample changes.
 - Preserve exported inputs unless explicitly asked to create a sanitized fixture.
 - Update docs when workflow behavior changes.
 - Prefer SVG sources over editing generated PNGs.

@@ -6,6 +6,8 @@ This repository models safe, reviewable workflows for managing Stream Deck expor
 
 - Never edit files outside this repository.
 - Never modify a live Stream Deck application support directory.
+- Use the relevant skill in `skills/` when the task matches profile auditing,
+  icon management, or workflow creation.
 - Treat `profiles/exported/` and `examples/` as input unless a task explicitly asks for a template update.
 - Write proposed profile artifacts to `profiles/reviewed/` or a user-provided review directory.
 - Keep source icons in `icons/source/`; generated PNG output belongs in `icons/png-144/` or `icons/png-288/`.
@@ -33,3 +35,10 @@ npm run render:icons
 ```
 
 If you cannot run a check, say that plainly and explain what remains unverified.
+
+## Local skills
+
+- `skills/audit-streamdeck-profile`: use for inventories and risk reviews.
+- `skills/manage-streamdeck-icons`: use for source SVG and PNG export work.
+- `skills/build-streamdeck-workflow`: use for adding or revising workflow
+  samples.

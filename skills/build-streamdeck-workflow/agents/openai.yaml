@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Stream Deck Workflow"
+  short_description: "Design safe reviewable Stream Deck workflows."
+  default_prompt: "Add or revise one Stream Deck workflow sample with safety notes, platform support, assets, and a clear manual-test checklist."

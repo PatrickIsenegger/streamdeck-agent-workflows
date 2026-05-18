@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manage Stream Deck Icons"
+  short_description: "Normalize Stream Deck SVG icons and exports."
+  default_prompt: "Normalize the Stream Deck icons in this repo using the token file, render reproducible PNG exports, and summarize the visual changes."

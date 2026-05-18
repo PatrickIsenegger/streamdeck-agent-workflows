@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Stream Deck Profile"
+  short_description: "Inventory exported Stream Deck profiles safely."
+  default_prompt: "Audit this Stream Deck working repo, build an inventory of buttons and dependencies, and flag risky actions before making changes."

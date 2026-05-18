@@ -10,6 +10,10 @@ button press -> small local script/action -> reviewed external effect -> documen
 
 Avoid workflows where one button can silently trigger a high-risk action.
 
+For new workflow samples, use
+[`skills/build-streamdeck-workflow`](../skills/build-streamdeck-workflow/SKILL.md)
+as the agent procedure.
+
 ## Current workflows
 
 | Workflow | Status | Platforms | Risk | Notes |
