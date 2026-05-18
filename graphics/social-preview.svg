@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Stream Deck Agent Workflows social preview</title>
+  <desc id="desc">Watercolor-style social preview for a repository about managing Stream Deck profiles and icons with coding agents.</desc>
+  <defs>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="4" seed="14"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.08"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="wash" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="5"/>
+      <feDisplacementMap in="SourceGraphic" scale="9"/>
+    </filter>
+    <linearGradient id="warm" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfaf7"/>
+      <stop offset="1" stop-color="#eef6f3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#warm)"/>
+  <rect width="1280" height="640" filter="url(#paper)" opacity="0.9"/>
+  <g filter="url(#wash)" opacity="0.34">
+    <path d="M-40 450C190 250 315 570 520 380s370-220 640 18 210 190 210 190H-40z" fill="#d9eef0"/>
+    <path d="M870 24c150 14 264 95 304 220s-54 203-206 176-218-104-198-218S720 10 870 24z" fill="#f0d6c5"/>
+    <path d="M126 112c168-68 302-2 292 116s-164 186-292 120S-42 180 126 112z" fill="#d6e5cf"/>
+  </g>
+  <g transform="translate(92 148)">
+    <rect x="0" y="0" width="250" height="310" rx="32" fill="#202528" opacity="0.96"/>
+    <g transform="translate(38 48)">
+      <rect width="48" height="48" rx="10" fill="#f4efe5"/>
+      <rect x="66" width="48" height="48" rx="10" fill="#d9eef0"/>
+      <rect x="132" width="48" height="48" rx="10" fill="#f0d6c5"/>
+      <rect y="70" width="48" height="48" rx="10" fill="#d6e5cf"/>
+      <rect x="66" y="70" width="48" height="48" rx="10" fill="#e9dfef"/>
+      <rect x="132" y="70" width="48" height="48" rx="10" fill="#f1e7c2"/>
+      <rect y="140" width="48" height="48" rx="10" fill="#cfe1ef"/>
+      <rect x="66" y="140" width="48" height="48" rx="10" fill="#e8c9c9"/>
+      <rect x="132" y="140" width="48" height="48" rx="10" fill="#cdd8d1"/>
+    </g>
+  </g>
+  <g transform="translate(438 172)" fill="#1f2a2e">
+    <text font-family="ui-serif, Georgia, serif" font-size="72" font-weight="700">Stream Deck</text>
+    <text y="86" font-family="ui-serif, Georgia, serif" font-size="72" font-weight="700">Agent Workflows</text>
+    <text y="152" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="27" fill="#4d5b57">templates · prompts · icons · safety docs</text>
+    <text y="205" font-family="ui-serif, Georgia, serif" font-size="30" fill="#384844">Let agents edit artifacts. Let humans import and test.</text>
+  </g>
+  <g transform="translate(910 388)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="21" fill="#253033">
+    <rect width="270" height="112" rx="14" fill="#fff" opacity="0.78" stroke="#d7d7d0"/>
+    <text x="28" y="45">AGENTS.md</text>
+    <text x="28" y="78">CLAUDE.md</text>
+  </g>
+</svg>
