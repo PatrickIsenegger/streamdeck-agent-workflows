@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" role="img" aria-labelledby="title">
+  <title id="title">Capture text</title>
+  <rect width="144" height="144" rx="24" fill="#202528"/>
+  <path d="M38 38h68v68H38z" fill="none" stroke="#f4efe5" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M54 58h36M54 74h28M54 90h18" fill="none" stroke="#d9eef0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M94 92l14 14 24-32" fill="none" stroke="#d6e5cf" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
