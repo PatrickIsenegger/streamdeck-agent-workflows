@@ -1,0 +1,28 @@
+name: Icon system improvement
+description: Propose an icon, token, or rendering improvement
+title: "Icon system: "
+labels: [design]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: What should change in the icon system?
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this useful for Stream Deck workflows?
+    validations:
+      required: true
+  - type: checkboxes
+    id: licensing
+    attributes:
+      label: Licensing and safety
+      options:
+        - label: I created the contribution myself or have permission to contribute it.
+          required: true
+        - label: This does not include third-party logos unless licensing is clear.
+          required: true
