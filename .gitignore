@@ -1,0 +1,15 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+.env
+.env.*
+
+# Generated icon outputs can be recreated from icons/source.
+icons/png-144/*.png
+icons/png-288/*.png
+
+# Keep real private profile exports out of this public repo.
+profiles/exported/*
+profiles/reviewed/*
+!profiles/exported/.gitkeep
+!profiles/reviewed/.gitkeep
