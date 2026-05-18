@@ -8,8 +8,6 @@ This sample workflow turns a Stream Deck button into a small capture tool:
 Stream Deck key -> local script -> text entry dialog -> webhook POST
 ```
 
-![Watercolor illustration of the capture text to webhook workflow.](../../graphics/watercolor/capture-text-webhook-watercolor.png)
-
 Use it for low-risk capture flows such as:
 
 - quick notes

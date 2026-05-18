@@ -6,7 +6,7 @@
 
 Practical workflows, templates, prompts, and tooling for managing Stream Deck profiles and icons with coding agents such as Codex, Claude Code, Cursor, and similar repo-aware assistants.
 
-![Stream Deck Agent Workflows social preview](graphics/social-preview.svg)
+![Watercolor illustration of a Stream Deck workflow with a capture modal and webhook endpoint](graphics/watercolor/capture-text-webhook-watercolor.png)
 
 This repository is intentionally small, reviewable, and safety-oriented. It is not a Stream Deck plugin and it does not automate your live device directly. The core idea is simple:
 
