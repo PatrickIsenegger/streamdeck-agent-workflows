@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" role="img" aria-labelledby="title">
+  <title id="title">Browser</title>
+  <rect width="144" height="144" rx="24" fill="#202528"/>
+  <circle cx="72" cy="72" r="42" fill="none" stroke="#d9eef0" stroke-width="10"/>
+  <path d="M31 72h82M72 30c15 14 22 28 22 42s-7 28-22 42M72 30C57 44 50 58 50 72s7 28 22 42" fill="none" stroke="#d9eef0" stroke-width="8" stroke-linecap="round"/>
+</svg>
