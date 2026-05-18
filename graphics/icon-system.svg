@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Stream Deck icon system</title>
+  <desc id="desc">Design tokens flow into SVG source icons, rendered PNG exports, and a reviewed Stream Deck profile mapping.</desc>
+  <rect width="1200" height="675" fill="#fdfdfc"/>
+  <text x="600" y="76" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="42" font-weight="700" fill="#1f2a2e">Source-first Icon System</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#253033">
+    <g transform="translate(95 145)">
+      <rect width="290" height="370" rx="16" fill="#fff" stroke="#d7d7d0"/>
+      <text x="34" y="54" font-size="24" font-weight="700">tokens</text>
+      <text x="34" y="100" font-size="17">background</text>
+      <text x="34" y="132" font-size="17">foreground</text>
+      <text x="34" y="164" font-size="17">accent</text>
+      <text x="34" y="196" font-size="17">stroke width</text>
+      <text x="34" y="228" font-size="17">export sizes</text>
+    </g>
+    <g transform="translate(455 145)">
+      <rect width="290" height="370" rx="16" fill="#fff" stroke="#d7d7d0"/>
+      <text x="34" y="54" font-size="24" font-weight="700">SVG sources</text>
+      <g transform="translate(48 100)">
+        <rect width="70" height="70" rx="12" fill="#202528"/><path d="M24 47h22M35 24v22" stroke="#f4efe5" stroke-width="7" stroke-linecap="round"/>
+        <rect x="100" width="70" height="70" rx="12" fill="#202528"/><path d="M122 45c13-24 26-24 39 0" stroke="#d9eef0" stroke-width="7" fill="none" stroke-linecap="round"/><circle cx="142" cy="28" r="7" fill="#d9eef0"/>
+        <rect y="100" width="70" height="70" rx="12" fill="#202528"/><path d="M22 31h28v24H22zM50 38l12-8v26l-12-8" stroke="#f0d6c5" stroke-width="6" fill="none" stroke-linejoin="round"/>
+        <rect x="100" y="100" width="70" height="70" rx="12" fill="#202528"/><path d="M122 32h40M122 48h40M122 64h26" stroke="#d6e5cf" stroke-width="7" stroke-linecap="round"/>
+      </g>
+    </g>
+    <g transform="translate(815 145)">
+      <rect width="290" height="370" rx="16" fill="#fff" stroke="#d7d7d0"/>
+      <text x="34" y="54" font-size="24" font-weight="700">PNG exports</text>
+      <text x="34" y="100" font-size="17">icons/png-144</text>
+      <text x="34" y="132" font-size="17">icons/png-288</text>
+      <text x="34" y="196" font-size="17">reviewed profile</text>
+      <text x="34" y="228" font-size="17">manual import</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#8b3a3a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M395 330h50M445 330l-14-11M445 330l-14 11"/>
+    <path d="M755 330h50M805 330l-14-11M805 330l-14 11"/>
+  </g>
+  <text x="600" y="610" text-anchor="middle" font-family="ui-serif, Georgia, serif" font-size="24" fill="#253033">Review SVG and token diffs. Regenerate PNG output deterministically.</text>
+</svg>
