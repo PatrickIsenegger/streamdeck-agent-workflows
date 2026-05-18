@@ -90,9 +90,9 @@ Avoid contributing:
 
 ## Companion article
 
-This repo was created as a companion project for Patrick Isenegger's article on managing Stream Deck icons and settings with Codex or Claude.
+This repo was created as a companion project for Patrick Isenegger's article on managing Stream Deck icons and settings with Codex or Claude:
 
-Article link coming once the public post is updated.
+- [Managing Stream Deck Icons with Codex or Claude](https://patrickisenegger.com/en/posts/2026-05-18-managing-stream-deck-icons-with-codex-or-claude/)
 
 ## License
 
