@@ -2,6 +2,12 @@
 
 A raster watercolor image was generated with the project image-generation workflow for the capture-text-to-webhook example.
 
+The committed PNG is available at:
+
+```text
+graphics/watercolor/capture-text-webhook-watercolor.png
+```
+
 The generated PNG was saved locally during creation as:
 
 ```text
@@ -14,7 +20,7 @@ A copy was prepared locally as:
 /tmp/streamdeck-agent-workflows-check/graphics/watercolor/capture-text-webhook-watercolor.png
 ```
 
-The current GitHub connector available to Codex can create UTF-8 text files but not binary PNG files, so this prompt is committed as the reproducible source. A maintainer can upload the PNG later or export a new one from this prompt.
+This prompt remains committed as the reproducible source for future refreshes or style variants.
 
 ## Prompt
 
