@@ -1,0 +1,18 @@
+{
+  "name": "streamdeck-agent-workflows-default",
+  "background": "#202528",
+  "foreground": "#f4efe5",
+  "muted": "#d9eef0",
+  "accent": "#8b3a3a",
+  "success": "#d6e5cf",
+  "warning": "#f1e7c2",
+  "strokeWidth": 10,
+  "cornerRadius": 24,
+  "padding": 28,
+  "exportSizes": [144, 288],
+  "notes": [
+    "Keep icons legible at small sizes.",
+    "Avoid tiny text inside button icons.",
+    "Prefer SVG source edits; regenerate PNG outputs."
+  ]
+}
