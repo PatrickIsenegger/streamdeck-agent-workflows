@@ -1,6 +1,12 @@
 # Stream Deck Agent Workflows
 
+[![License: MIT + CC BY 4.0](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-8b3a3a)](LICENSE.md)
+[![Platform: macOS tested](https://img.shields.io/badge/platform-macOS%20tested-2f6f73)](docs/platform-support.md)
+[![Help wanted: Windows/Linux](https://img.shields.io/badge/help%20wanted-Windows%20%2F%20Linux-d9822b)](https://github.com/PatrickIsenegger/streamdeck-agent-workflows/issues)
+
 Practical workflows, templates, prompts, and tooling for managing Stream Deck profiles and icons with coding agents such as Codex, Claude Code, Cursor, and similar repo-aware assistants.
+
+![Stream Deck Agent Workflows social preview](graphics/social-preview.svg)
 
 This repository is intentionally small, reviewable, and safety-oriented. It is not a Stream Deck plugin and it does not automate your live device directly. The core idea is simple:
 
@@ -19,6 +25,16 @@ Coding agents are useful for the maintenance work around that setup:
 - keeping prompts and agent instructions consistent
 
 They are much less useful when given direct write access to the live Stream Deck application data. This repo models a safer workflow around exports, Git diffs, and manual import.
+
+## Platform support
+
+| Platform | Status |
+| --- | --- |
+| macOS | Tested by the maintainer. |
+| Windows | Expected to work, needs contributor verification. |
+| Linux | Repo tooling should be useful, but official Elgato Stream Deck software is not available for Linux. Community tools such as OpenDeck need separate notes. |
+
+See [Platform Support](docs/platform-support.md) for details.
 
 ## Repository map
 
@@ -79,6 +95,7 @@ Good contributions:
 - documentation for exported-profile workflows
 - sanitized inventories
 - vendor-neutral workflow patterns
+- verified Windows and Linux notes
 
 Avoid contributing:
 
@@ -87,6 +104,10 @@ Avoid contributing:
 - actions for locks, payments, alarms, production deploys, or clinical workflows
 - large generated asset dumps
 - tooling that edits live Stream Deck application folders by default
+
+## Discoverability and roadmap
+
+The repo includes [discoverability notes](docs/discoverability.md) and starter issues for Windows/Linux verification. GitHub Trending is not something a maintainer can force, so the project focuses on being useful, clear, safe, and contributor-friendly.
 
 ## Companion article
 
