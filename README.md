@@ -26,6 +26,14 @@ Coding agents are useful for the maintenance work around that setup:
 
 They are much less useful when given direct write access to the live Stream Deck application data. This repo models a safer workflow around exports, Git diffs, and manual import.
 
+## Workflow catalog
+
+The first concrete sample workflow is available now:
+
+- [Capture text to webhook](workflows/capture-text-webhook/README.md): a Stream Deck key opens a local text prompt and sends the captured note to a webhook as JSON.
+
+See the [workflow catalog](docs/workflows.md) for planned workflows and contribution ideas.
+
 ## Platform support
 
 | Platform | Status |
@@ -49,6 +57,7 @@ streamdeck-agent-workflows/
   scripts/                   # Small audit/render helper scripts
   templates/                 # Starter files for your own Stream Deck control repo
   tokens/                    # Design tokens for icon rendering
+  workflows/                 # Concrete workflow samples
 ```
 
 ## Quick start
