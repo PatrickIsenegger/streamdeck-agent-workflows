@@ -1,0 +1,34 @@
+name: Workflow pattern
+ description: Propose a reusable Stream Deck agent workflow
+ title: "Workflow: "
+ labels: [workflow]
+ body:
+   - type: markdown
+     attributes:
+       value: |
+         Thanks for proposing a workflow pattern. Please keep examples sanitized.
+   - type: textarea
+     id: problem
+     attributes:
+       label: What problem does this solve?
+       description: Describe the maintenance or review problem.
+     validations:
+       required: true
+   - type: textarea
+     id: workflow
+     attributes:
+       label: Proposed workflow
+       description: Explain the steps, agent role, and human review gate.
+     validations:
+       required: true
+   - type: checkboxes
+     id: safety
+     attributes:
+       label: Safety checklist
+       options:
+         - label: This does not include private profile exports.
+           required: true
+         - label: This does not include secrets, private paths, or credentials.
+           required: true
+         - label: This keeps manual review/import in the loop for behavior changes.
+           required: true
