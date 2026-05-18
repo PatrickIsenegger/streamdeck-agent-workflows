@@ -1,0 +1,15 @@
+{
+  "name": "streamdeck-agent-workflows",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Workflows, templates, prompts, and tooling for managing Stream Deck profiles and icons with coding agents.",
+  "scripts": {
+    "audit:profile": "node scripts/audit-profile.mjs examples/inventory/buttons.sample.md",
+    "render:icons": "node scripts/render-icons.mjs",
+    "check": "npm run audit:profile"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}
