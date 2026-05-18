@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" role="img" aria-labelledby="title">
+  <title id="title">Webhook</title>
+  <rect width="144" height="144" rx="24" fill="#202528"/>
+  <circle cx="44" cy="72" r="16" fill="none" stroke="#f0d6c5" stroke-width="9"/>
+  <circle cx="100" cy="46" r="16" fill="none" stroke="#d9eef0" stroke-width="9"/>
+  <circle cx="100" cy="98" r="16" fill="none" stroke="#d6e5cf" stroke-width="9"/>
+  <path d="M59 65l26-13M59 79l26 13" fill="none" stroke="#f4efe5" stroke-width="8" stroke-linecap="round"/>
+</svg>
